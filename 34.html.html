@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML dynamic table using JavaScript</title>
+    <script type="text/javascript" src="app.js"></script>
+</head>
+<body onload="load()">
+<div id="myform">
+<b>Subject Name.....</b>
+<table>
+    <tr>
+        <td>Topic Name:</td>
+        <td><input type="text" id="name"></td>
+    </tr>
+    <tr>
+        <td>Important/Not:</td>
+        <td><input type="text" id="Important/Not">
+        <input type="button" id="add" value="Add" onclick="Javascript:addRow()"></td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+</table>
+</div>
+<div id="mydata">
+<b>Current data in the system ...</b>
+<table id="myTableData"  border="1" cellpadding="2">
+    <tr>
+        <td>&nbsp;</td>
+        <td><b>Topic Name</b></td>
+        <td><b>Important/Not</b></td>
+    </tr>
+</table>
+&nbsp;
+
+</div>
+</body>
+</html>
